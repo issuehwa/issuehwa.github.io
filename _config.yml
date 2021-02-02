@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "YoungHwa.LEE"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/1.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "기억잘하는 사람이라면 좋겠다."
   location         : "Suwon, Korea"
   email            :
