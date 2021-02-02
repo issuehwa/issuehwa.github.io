@@ -1,7 +1,7 @@
 # main links
 main:
 - title: "Posts"
-  url: /posts/
+  url: /page-archive/
 - title: "Category"
   url: /categories/
 - title: "About" # 네비게이션 바에 표시 되는 이름
