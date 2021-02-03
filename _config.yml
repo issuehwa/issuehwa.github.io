@@ -273,7 +273,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: "/docs/_posts"
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -282,3 +282,14 @@ defaults:
       comments: true # 블로그 댓글 기능 true
       share: true
       related: true
+
+
+#>>>>>>>>>>>>>>>>>>> 여기서부터 추가 됨
+# _pages 부분입니다.
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+# >>>>>>>>>>>>>>>>>>>> 여기까지 추가 됨

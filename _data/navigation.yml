@@ -8,3 +8,16 @@ main:
   url: "/about/" # 클릭시 이동할 URL
 - title: "Hobby"
   url: /hobby/
+
+
+  docs:
+  - title: Getting Started
+    children:
+    - title: "Quick-Start Guide"
+      url: /docs/quick-start-guide/
+    - title: "Structure"
+      url: /docs/structure/
+    - title: "Installation"
+      url: /docs/installation/
+    - title: "Upgrading"
+      url: /docs/upgrading/
