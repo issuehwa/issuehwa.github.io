@@ -1,10 +1,14 @@
 # main links
 main:
 - title: "Posts"
-  url: /page-archive/
+  url: /post-archive-feature-rows/
+- title: "page-a"
+  url: /page-a/
+- title: "page-b"
+  url: /page-b/
 - title: "Category"
   url: /categories/
 - title: "About" # 네비게이션 바에 표시 되는 이름
   url: "/about/" # 클릭시 이동할 URL
-- title: "취미(Hobby)"
-  url: /hobby/
+#- title: "취미(Hobby)"
+#  url: /hobby/
