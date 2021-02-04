@@ -8,21 +8,7 @@ main:
   url: "/about/" # 클릭시 이동할 URL
 
 
-
-# documentation links
-docs:
-  - title: Getting Started
-    children:
-    - title: "Quick-Start Guide"
-      url: /docs/quick-start-guide/
-    - title: "Structure"
-      url: /docs/structure/
-    - title: "Installation"
-      url: /docs/installation/
-    - title: "Upgrading"
-      url: /docs/upgrading/
-
-# 주짓수 링크
+# 주짓수 링크 사이드바용도
 jiujitsu:
   - title: 주짓수란?
     children:
