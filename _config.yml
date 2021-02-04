@@ -302,7 +302,7 @@ defaults:
       path: "_docs"
       type: docs
     values:
-      layout: single
+      layout: collection
       read_time: false
       author_profile: false
       share: false
