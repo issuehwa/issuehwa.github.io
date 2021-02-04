@@ -298,7 +298,7 @@ defaults:
   # _주짓수
   - scope:
       path: "_jiujitsu"
-      type: docs
+      type: jiujitsu
     values:
       layout: single
       read_time: false
