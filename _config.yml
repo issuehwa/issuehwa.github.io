@@ -269,20 +269,6 @@ compress_html:
     envs: development
 
 
-docs:
-  - title: Getting Started
-    children:
-    - title: "Quick-Start Guide"
-      url: /_docs/quick-start-guide/
-    - title: "Structure"
-      url: /_docs/structure/
-    - title: "Installation"
-      url: /_docs/installation/
-    - title: "Upgrading"
-      url: /_docs/upgrading/
-
-
-
 # Collections
 collections:
   docs:

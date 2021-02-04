@@ -6,3 +6,18 @@ main:
   url: "/about/" # 클릭시 이동할 URL
 - title: "취미(Hobby)"
   url: /hobby/
+
+
+
+# documentation links
+docs:
+  - title: Getting Started
+    children:
+    - title: "Quick-Start Guide"
+      url: /_docs/quick-start-guide/
+    - title: "Structure"
+      url: /_docs/structure/
+    - title: "Installation"
+      url: /_docs/installation/
+    - title: "Upgrading"
+      url: /_docs/upgrading/
