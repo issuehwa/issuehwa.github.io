@@ -277,9 +277,9 @@ collections:
 
 # Defaults
 defaults:
-  # posts
+  # _posts
   - scope:
-      path: "posts/**"
+      path: "_posts/**"
       type: posts
     values:
       layout: single
@@ -295,9 +295,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # 주짓수
+  # _주짓수
   - scope:
-      path: "jiujitsu"
+      path: "_jiujitsu"
       type: docs
     values:
       layout: single
