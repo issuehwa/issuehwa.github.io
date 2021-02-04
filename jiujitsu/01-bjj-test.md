@@ -1,11 +1,6 @@
 ---
 title: "주짓수 테스트글"
-permalink: /bjj/test/
-excerpt: "주짓수 테스트글입니다."
-last_modified_at: 2021-02-04
-redirect_from:
-  - /theme-setup/
-toc: true
+excerpt: "The Lhasa Apso is a non-sporting dog breed originating in Tibet."
 ---
 
 Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/docs/themes/) for easier use, and 100% compatible with GitHub Pages when used as a remote theme.
