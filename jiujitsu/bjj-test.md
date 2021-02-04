@@ -1,6 +1,6 @@
 ---
 title: "주짓수 요약"
-permalink: /docs/summary/
+permalink: /jiujitsu/summary/
 excerpt: "The Lhasa Apso is a non-sporting dog breed originating in Tibet."
 last_modified_at: 2022-02-04
 toc: true
