@@ -1,5 +1,6 @@
 ---
 title: "Post: Gallery"
+permalink: /demo2/
 categories:
   - Post Formats
 tags:

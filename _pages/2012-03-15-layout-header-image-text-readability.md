@@ -1,5 +1,6 @@
 ---
 title: "Layout: Header Image and Text Readability"
+permalink: /demo1/
 header:
   image: /assets/images/unsplash-image-4.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
