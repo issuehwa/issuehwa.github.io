@@ -1,8 +1,8 @@
 ---
-title: "Quick-Start Guide"
-permalink: /docs/quick-start-guide/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2020-07-27
+title: "주짓수 테스트글"
+permalink: /bjj/test/
+excerpt: "주짓수 테스트글입니다."
+last_modified_at: 2021-02-04
 redirect_from:
   - /theme-setup/
 toc: true
