@@ -14,10 +14,10 @@ docs:
   - title: Getting Started
     children:
     - title: "Quick-Start Guide"
-      url: /_docs/quick-start-guide/
+      url: /docs/quick-start-guide/
     - title: "Structure"
-      url: /_docs/structure/
+      url: /docs/structure/
     - title: "Installation"
-      url: /_docs/installation/
+      url: /docs/installation/
     - title: "Upgrading"
-      url: /_docs/upgrading/
+      url: /docs/upgrading/
