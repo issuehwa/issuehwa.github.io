@@ -2,10 +2,10 @@
 main:
 #- title: "Category"
 #  url: /categories/
+- title: "Jiu-Jitsu"
+  url: /jiujitsu/
 - title: "About" # 네비게이션 바에 표시 되는 이름
   url: "/about/" # 클릭시 이동할 URL
-- title: "Jiu-Jitsu"
-  url: /bjj/
 
 
 
@@ -21,3 +21,10 @@ docs:
       url: /docs/installation/
     - title: "Upgrading"
       url: /docs/upgrading/
+
+# 주짓수 링크
+jiujitsu:
+  - title: 주짓수란?
+    children:
+    - title: "test"
+      url: /jiujitsu/test/

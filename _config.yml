@@ -274,6 +274,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
+  jiujitsu:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -309,3 +312,15 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+
+# 주짓수
+  - scope:
+      path: "jiujitsu"
+      type: jiujitsu
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      sidebar:
+        nav: "jiujitsu"
