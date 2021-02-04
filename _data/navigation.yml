@@ -16,5 +16,5 @@ jiujitsu:
     children:
     - title: "summary"
       url: /jiujitsu/summary/
-    - title: "test"
-      url: /jiujitsu/test/
+#    - title: "test"
+#      url: /jiujitsu/test/
