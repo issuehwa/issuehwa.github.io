@@ -277,6 +277,9 @@ collections:
   jiujitsu:
     output: true
     permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -324,3 +327,13 @@ defaults:
       comments: true
       sidebar:
         nav: "jiujitsu"
+
+  # _pets
+  - scope:
+      path: "_pets"
+      type: pets
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
