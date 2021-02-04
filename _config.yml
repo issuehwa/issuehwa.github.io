@@ -322,8 +322,8 @@ defaults:
       type: jiujitsu
     values:
       layout: single
-      author_profile: true
-      share: true
+      author_profile: false
+      share: false
       comments: true
       sidebar:
         nav: "jiujitsu"
