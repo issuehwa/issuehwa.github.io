@@ -1,9 +1,9 @@
 ---
 layout: collection
-title: "Jiu-Jitsu"
-collection: jiujitsu
+title: "Jiu-Jitsu 주짓수"
+entries_layout: grid
 permalink: /jiujitsu/
-author_profile: false
+collection: Jiujitsu
 ---
 
-Sample document listing for the collection `jiujitsu`.
+Sample post listing for the tag `Jiujitsu`.
