@@ -4,6 +4,8 @@ Github Pages로 만든 Blog 입니다.
 ## 이동 URL
 [YoungHwa.LEE Blog](https://issuehwa.github.io) 🙄
 
+[Minimal Mistakes 블로그웹](https://mmistakes.github.io/minimal-mistakes/)
+
 ### 블로그 내용
 - `프로그래밍 공부`
 - `주짓수`
