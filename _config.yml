@@ -274,6 +274,9 @@ collections:
   jiujitsu:
     output: true
     permalink: /:collection/:path/
+  glossary:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -304,6 +307,18 @@ defaults:
       read_time: false
       author_profile: false
       share: false
-      comments: false
+      comments: true
       sidebar:
         nav: "jiujitsu"
+  # 용어사전
+  - scope:
+      path: "_glossary"
+      type: glossary
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: true
+      sidebar:
+        nav: "glossary"
