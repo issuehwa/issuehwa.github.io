@@ -13,11 +13,17 @@ layouts_gallery:
     image_path: /assets/images/mm-layout-archive.png
     alt: "archive layout example"
 last_modified_at: 2020-10-28T14:51:23-04:00
-toc: true
+toc: false
 ---
 
 ## 익숙해지기 전까 유지 예정입니다.
-> 이미지, 컬렉션, 마크다운 등 공부예정
+> 이미지, 컬렉션, 마크다운 등 공부예정 !
+
+### jekyll 로컬 서버
+1. Gemfile 수정 (테마, 마크다운 컴파일러 등등)
+2. bundle exec jekyll serve
+3. 기본 localhost:4000 포트
+
 
 Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
 

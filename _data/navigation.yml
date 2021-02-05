@@ -11,6 +11,17 @@ main:
 - title: "Demo" # 네비게이션 바에 표시 되는 이름
   url: "/demo/" # 클릭시 이동할 URL
 
+# sidebar links
+sidebar:
+- title: "Category"
+  url: "/categories/"
+- title: "Glossary"
+  url: "/glossary/main/"
+#- title: "Jiu-Jitsu"
+#  url: "/jiujitsu/summary/"
+- title: "About"
+  url: "/about/"
+
 
 # 주짓수 링크 사이드바용도
 jiujitsu:
@@ -20,3 +31,16 @@ jiujitsu:
       url: /jiujitsu/summary/
 #    - title: "test"
 #      url: /jiujitsu/test/
+
+# 용어 사전 링크
+glossary:
+- title: "Summary"
+  children:
+  - title: "프로그래밍 용어 정리"
+    url: /glossary/main/
+- title: "Java"
+  children:
+  - title: "J2EE & Java EE"
+    url: /glossary/java/j2ee/
+  - title: "Java EJB"
+    url: /glossary/java/ejb/
