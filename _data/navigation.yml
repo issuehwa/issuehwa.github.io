@@ -40,7 +40,7 @@ glossary:
     url: /glossary/main/
 - title: "Java"
   children:
-  - title: "J2EE & Java EE"
+  - title: "J2EE & Java EE & Jakarta EE"
     url: /glossary/java/j2ee/
   - title: "Java EJB"
     url: /glossary/java/ejb/
