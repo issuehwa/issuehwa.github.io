@@ -44,4 +44,20 @@ toc_label: "Spring Framework"
 
 
 
+```javascript
+
+function test () {
+	let daum = 'babo';
+  	let younghwa = 'chunjea';
+}
+
+```
+
+```java
+public String testHa() {
+    String daum = "다움";
+
+    return daum;
+}
+```
 
