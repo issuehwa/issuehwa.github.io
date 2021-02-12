@@ -11,7 +11,7 @@ toc: true
 toc_label: "Spring Framework"
 ---
 
-# Spring Framework 1234
+### Spring Framework
 ```
 - Java/Kotlin 기반의 웹 프레임워크
 - Java Virtual Machine(JVM)에서 작동
@@ -39,25 +39,7 @@ toc_label: "Spring Framework"
 
 
 ## 참조
-[나무위키: 스프링 프레임워크](https://namu.wiki/w/Spring(%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)?from=%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)
+[나무위키: 스프링 프레임워크](https://namu.wiki/w/Spring(%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)?from=%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)<br>
 [벨로그 ystone](https://velog.io/@ljinsk3/Spring%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
-
-
-```javascript
-
-function test () {
-	let daum = 'babo';
-  	let younghwa = 'chunjea';
-}
-
-```
-
-```java
-public String testHa() {
-    String daum = "다움";
-
-    return daum;
-}
-```
 
