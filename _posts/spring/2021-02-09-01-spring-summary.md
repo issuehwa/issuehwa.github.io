@@ -11,7 +11,7 @@ toc: true
 toc_label: "Spring Framework"
 ---
 
-# Spring Framework 123
+# Spring Framework 1234
 ```
 - Java/Kotlin 기반의 웹 프레임워크
 - Java Virtual Machine(JVM)에서 작동
