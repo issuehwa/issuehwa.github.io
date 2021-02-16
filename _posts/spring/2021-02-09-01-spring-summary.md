@@ -1,5 +1,6 @@
 ---
 title: "Spring: 스프링 프레임워크 개요"
+excerpt: "Java/Kotlin 기반의 웹 프레임워크"
 categories:
   - SpringFramework
 tags:
@@ -26,9 +27,6 @@ toc_label: "Spring Framework"
 :   기술의 복잡도가 증가해서 성능이 느렸던것을 탈피해서 
 [EJB](/glossary/java/ejb/)시절을 `“겨울”`에 빗대어 겨울 후의 `“봄”`으로 새로운 시작을 의미로 `스프링(봄)`이 되었다.
 
- - 현재 : 
- :  2020년 12월 기준 최신버전은 5.3.2 , 전자정부표준프레임워크 기반 기술, 스프링부트
-
 
 #### 주요 특징
  1. POJO(Plain Old Java Object) 방식
@@ -36,10 +34,20 @@ toc_label: "Spring Framework"
  3. DI 의존성 주입(Dependency Injection)
  4. IoC 제어 역전(Inversion of Control)
  5. 생명주기 관리
+ 
+ 
+### 기타
+
+#### 버전
+- 2021년 2월 기준 최신버전은 5.3.3 
+
+#### 발전 사항
+- 전자정부표준프레임워크 기반 기술
+- 스프링부트
 
 
 ## 참조
-[나무위키: 스프링 프레임워크](https://namu.wiki/w/Spring(%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)?from=%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)
+[나무위키: 스프링 프레임워크](https://namu.wiki/w/Spring(%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)?from=%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC)<br/>
 [벨로그 ystone](https://velog.io/@ljinsk3/Spring%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
 
