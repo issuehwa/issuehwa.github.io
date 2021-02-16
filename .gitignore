@@ -31,3 +31,8 @@ misc.xml
 modules.xml
 workspace.xml
 *.iml
+/bundle
+/.sass-cache/
+/_site/
+/Gemfile.lock
+/issuehwa.github.io.iml
