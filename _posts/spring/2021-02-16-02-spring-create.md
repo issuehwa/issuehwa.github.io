@@ -11,7 +11,7 @@ tags:
   - intellij
 author_profile: false
 toc: true
-toc_label: ""
+toc_label: "스프링 프로젝트 생성"
 ---
 
 ## 1. 개발 환경
@@ -256,7 +256,7 @@ dispatcher-servlet.xml 의 빈을 사용하게 된다.
     </bean>
 </beans>
 ```
-
+[다음 편: 컨트롤러, View(jsp) 생성](/springframework/03-spring-create2) 
 
 ## 참조
 [https://chori84.tistory.com/32](https://chori84.tistory.com/32) <br>
