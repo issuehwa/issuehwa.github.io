@@ -21,7 +21,6 @@ toc_label: "컨트롤러, jsp 생성"
 
 ## 1. Controller
 
-
 ### 1) 패키지, 컨트롤러 생성
 <figure class="half">
   <a href="{{ site.baseurl }}/assets/images/spring/spring-controller1.png"><img src="{{ site.baseurl }}/assets/images/spring/spring-controller1.png"></a>
