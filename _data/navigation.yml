@@ -44,3 +44,7 @@ glossary:
     url: /glossary/java/j2ee/
   - title: "Java EJB"
     url: /glossary/java/ejb/
+  - title: "Servlet"
+    url: /glossary/java/servlet/
+  - title: "Jsp (Java Server Pages)"
+    url: /glossary/java/jsp/

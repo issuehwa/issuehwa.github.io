@@ -9,6 +9,7 @@ layouts_gallery:
     alt: "Java EE History"
 toc: ture
 toc_icon: "cog"
+toc_label: "Java EE"
 ---
 
 ---

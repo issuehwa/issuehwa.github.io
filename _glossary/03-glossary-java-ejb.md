@@ -4,6 +4,7 @@ permalink: /glossary/java/ejb/
 excerpt: "Enterprise Java Bean"
 last_modified_at: 2021-02-05
 toc: ture
+toc_label: "Java EJB"
 ---
 
 ---
