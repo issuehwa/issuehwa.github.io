@@ -36,6 +36,26 @@ toc_label: "Servlet"
 7. Servlet Container 에서 HTTP Response 로 바꿔 Web Server 에 전송
 8. HttpServletRequest, HttpServletResponse 객체 소멸 후 Thread 종료
 
+#### 기본 구성
+
+```java
+// 보통 HttpServlet 상속하여 쓴다.
+public class TestServlet extends HttpServlet{
+    
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) 
+        throws ServletException, IOException {
+        // TODO
+        // 할일~~ 샬롸 샬롸~
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) 
+        throws ServletException, IOException {
+        // 포스트로 온 요청도 doGet() 메서드 호출로 돌린다.
+        doGet(request, response);
+    }
+}
+```
+
 ### 2. 서블릿 컨테이너 란?
 
 **서블릿을 서버에서 실행하기 위한 서버 프로그램**
@@ -48,6 +68,34 @@ toc_label: "Servlet"
 - HTTP 요청을 받아 서블릿을 실행하고 생명주기를 관리한다.
 - 서블릿과 웹서버가 통신할 수 있는 방법을 제공한다.
 - 멀티 스레딩을 지원하여 사용자의 다중 요청을 처리한다.
+
+#### 매핑방법
+
+- 3.0 이하 버전에서는 `web.xml`에 정의
+- 3.0 이상 버전에서는 `@WebServlet` 애노테이션도 지원함
+
+>방법 1: xml
+
+```xml
+<servlet>
+    <servlet-name>testServlet<servlet-name>
+    <servlet-class>com.spring.study.TestServlet<servlet-class>
+</servlet>
+<Servlet-mapping>
+    <servlet-name>testServlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+</Servlet-mapping>
+```
+
+>방법 2: 애노테이션
+
+```java
+@WebServlet("/test")
+public class TestServlet extends HttpServlet{
+  //do
+  //someting
+}
+```
 
 ## 참조
 [https://galid1.tistory.com/487](https://galid1.tistory.com/487) <br>

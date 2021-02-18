@@ -32,7 +32,7 @@ toc_label: "Java EE"
 
 - [EJB (Enterprise Java Beans)][glossary-java-ejb]
 
-- Servlet
+- [Servlet][Servlet]
 
 - JSP (Java Server Pages)
 
@@ -43,8 +43,6 @@ toc_label: "Java EE"
 - JNDI (Java Naming DirectoryInterface)
 
 - JMS (Java Message Service)
-
-[glossary-java-ejb]: {{ "/glossary/java/ejb/" }}
 
 
 ### History
@@ -65,3 +63,9 @@ toc_label: "Java EE"
 |                 | Jakarta EE 8 부터 이클립스 재단에서 관리 |
 |2020년 11월 22일 | Jakarta EE 9 - javax.\*에서 jakarta.\* 네임 스페이스 변경.|
 
+
+<!--링크 참조-->
+
+[glossary-java-ejb]: /glossary/java/ejb/ "Java EJB"
+[Servlet]: /glossary/java/servlet/ "Servlet&서블릿 컨테이너"
+[JavaEE]: /glossary/java/j2ee/ "J2EE&JavaEE"
