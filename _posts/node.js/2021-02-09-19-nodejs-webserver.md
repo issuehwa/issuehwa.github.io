@@ -1,6 +1,6 @@
 ---
 title: "NodeJs: Web Server 구축하기"
-excerpt: "Javascript"
+excerpt: "Javascript Runtime"
 categories:
   - NodeJs
 tags:
@@ -33,6 +33,7 @@ NodeJs의 npm을 활용해서 간단히 web서버를 구축 해보려 한다.
 ### NodeJs
 - 구글 크롬 브라우저의 V8 javascript 엔진 기반의 javascript 런타임 이다.
 : *`javascript runtime`이란 기존 브라우저에서만 실행되던 javascript를 브라우저 밖에서도 실행할 수 있는 환경을 말한다.
+- 내장 HTTP 서버 라이브러리를 포함하고 있다.
 - Javascript 언어로 서버 사이드에서 사용할 수 있다.
 
 #### npm
@@ -57,7 +58,6 @@ Node Packaged Manager, NodeJs 모듈 패키지 관리자 역할
 ```javascript
 /**
  * 구동방법 
- * 터미널 => node app.js 
  * 해당 포트로 웹서버 구동 확인 가능
  */
 const http = require('http');
@@ -85,10 +85,87 @@ node app.js
 </figure>
 
 
+### Express framework
+
+- NodeJs에서 가장 많이 쓰이는 프레임워크 이다. 
+- Java의 스프링, PHP의 라라벨, 파이썬의 django와 같은 개념이다.
+- NodeJs의 핵심 모듈 `http`, `Connect` 컴포넌트를 기반으로 한다.
+
+#### 1. 설치
+
+>npm 명령어를 활용하어 설치한다.
+
+```
+// 디펜더시에 추가
+npm install express --save
+
+// 디펜더시에 추가하지 않음
+npm install express --no-save 
+```
+
+#### 2. app.js 내용 수정
+
+```javascript
+/**
+ * Express는 node로 웹서버 환경 구축시 가장 많이 사용되는 프레임워크
+ */
+const express = require('express'); // express 모듈 추가하기
+
+const app = express();
+const port = 8282;
+const path = require('path');
+
+app.use('/', (request, response, next) => {
+  response.sendFile(path.join(__dirname + '/view/index.html'));
+});
+
+app.listen(port, function(err) {
+  console.log('Connected port - ' + port);
+  if (err) {
+    return console.log('Found error', err);
+  }
+})
+```
+
+#### 3. index.html 파일 작성
+
+Express를 활용하여 "/" 루트 라우팅에서 보여줄 index.html 파일을 생성한다.
+`view` 폴더 아래에 `index.html` 생성하였다.
+
+<figure>
+    <a href="{{ site.baseurl }}/assets/images/nodejs/nodejs-5.png"><img src="{{ site.baseurl }}/assets/images/nodejs/nodejs-5.png"></a>
+</figure>
+
+>html 작성내용
+
+```html
+<html>
+    <body>
+        <h1>Hello Express World!</h1>
+    </body>    
+</html>
+```
+
+#### 4. NodeJs 웹서버 구동
+
+>터미널에서 명령어 node app.js을 적어주시면 됩니다. 
+
+```terminal
+node app.js
+```
+
+#### 5. 결과
+
+<figure class="half">
+    <a href="{{ site.baseurl }}/assets/images/nodejs/nodejs-6.png"><img src="{{ site.baseurl }}/assets/images/nodejs/nodejs-6.png"></a>
+    <a href="{{ site.baseurl }}/assets/images/nodejs/nodejs-7.png"><img src="{{ site.baseurl }}/assets/images/nodejs/nodejs-7.png"></a>
+</figure>
+
 
 
 ## 참조
-[https://webisfree.com/](https://webisfree.com/2017-10-30/nodejs%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C%EB%B3%B4%EA%B8%B0)
+[블로그: https://webisfree.com/](https://webisfree.com/2017-10-30/nodejs%EB%A1%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9B%B9%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%98%88%EC%A0%9C%EB%B3%B4%EA%B8%B0)<br>
+[Express공식: https://expressjs.com](https://expressjs.com/ko/starter/installing.html)
 
 
 
