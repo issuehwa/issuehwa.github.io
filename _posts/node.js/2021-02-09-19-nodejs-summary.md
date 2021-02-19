@@ -1,5 +1,5 @@
 ---
-title: "NodeJs: NodeJs Web Server 구축하기"
+title: "NodeJs: Web Server 구축하기"
 excerpt: "Javascript"
 categories:
   - NodeJs
@@ -9,7 +9,7 @@ tags:
   - express
 author_profile: false
 toc: true
-toc_label: "NodeJs"
+toc_label: "NodeJs Web Server"
 ---
 
 <figure>
