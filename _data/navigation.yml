@@ -1,6 +1,6 @@
 # main links
 main:
-- title: "Category"
+- title: "Posts"
   url: "/categories/"
 - title: "Glossary"
   url: "/glossary/main/"
@@ -13,7 +13,7 @@ main:
 
 # sidebar links
 sidebar:
-- title: "Category"
+- title: "Posts"
   url: "/categories/"
 - title: "Glossary"
   url: "/glossary/main/"
