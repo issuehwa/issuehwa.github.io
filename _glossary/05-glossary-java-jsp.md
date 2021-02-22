@@ -87,6 +87,10 @@ str에 담긴 단어는 <%= str %> 입니다.
 
 
 #### EL(Expression Language) & JSTL
+
+**JSP 선언문 빼고는 거의 EL&JSTL로 작성하는 경우가 많다.**
+{: .notice--info}
+
 - EL(Expression Language)를 이용하면 `<%= %>` 등의 JSP 표현식을 사용하는 것보다 간단히
 값을 가져올 수 있다.
 - JSTL 사용하면 `<% %>` 같이 스크립트릿 태그를 사용해서 자바 코드를 작성하지 않아도 됩니다.
