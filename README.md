@@ -1,7 +1,7 @@
 [![HitCount](http://hits.dwyl.com/issuehwa/issuehwa/issuehwagithubio/issuehwagithubio.svg)](http://hits.dwyl.com/issuehwa/issuehwa/issuehwagithubio/issuehwagithubio) <br>
 [![HitCount](http://hits.dwyl.com/issuehwa/issuehwagithubio.svg)](http://hits.dwyl.com/issuehwa/issuehwa.github.io) <br>
 
-[![HitCount](http://hits.dwyl.com/issuehwa/issuehwa.github.io.svg)](http://hits.dwyl.com/issuehwa/issuehwa.github.io) <br>
+[![HitCount](http://hits.dwyl.com/issuehwa/issuehwa.svg)](http://hits.dwyl.com/issuehwa/issuehwa) <br>
 
 # YoungHwa.LEE Blog 🎈
 Github Pages로 만든 Blog 입니다.
