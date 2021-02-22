@@ -1,5 +1,5 @@
 [![HitCount](http://hits.dwyl.com/issuehwa/issuehwa/issuehwagithubio/issuehwagithubio.svg)](http://hits.dwyl.com/issuehwa/issuehwa/issuehwagithubio/issuehwagithubio)
-[![HitCount](http://hits.dwyl.com/issuehwa/issuehwagithubio.svg)](http://hits.dwyl.com/issuehwa/issuehwagithubio)
+[![HitCount](http://hits.dwyl.com/issuehwa/issuehwagithubio.svg)](http://hits.dwyl.com/issuehwa/issuehwa.github.io)
 # YoungHwa.LEE Blog 🎈
 Github Pages로 만든 Blog 입니다.
 
