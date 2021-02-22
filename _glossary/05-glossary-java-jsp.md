@@ -24,6 +24,16 @@ toc_label: "Jsp"
 - Java Beans 컴포넌트를 사용할 수 있다.
 - `<% ~ %>`(* 스크립트릿-Scriptlet)로 Jsp 영역을 표기하며 Web에서 소스로 보여지지 않는다.
 
+#### Scriptlet 
+```jsp
+<%
+    String str = "hello;    // java code
+    out.println(str);
+%>
+```
+- 스크립트릿은 자바코드로 서버단에서 먼저 처리 되어 `out`객체나 `<%= %>` 표현식을 통해
+결과만 출력된다. 브라우저에서는 처리(해석)된 결과만 확인할 수 있다.
+
 #### Jsp 지시자
 
 ```jsp
@@ -63,6 +73,24 @@ pageEncoding="UTF-8"%>
 - HTML 태그 위에 자바코드를 선언할 수 있다.
 - 선언된 변수, 함수는 Jsp페이지 어느 곳에서도 참조 가능하다. 
 - 선언문 <%! ~ %> 태그는 중복으로 사용 가능하다.
+
+#### 표현식
+
+```jsp
+<%!
+ private String str = "good";
+%>
+str에 담긴 단어는 <%= str %> 입니다.
+```
+
+- Jsp 표현식은 ';' 세미콜론을 붙여주지 않는다. java파일로 변환시 out.print(); 자동으로 붙는다.
+
+
+#### EL(Expression Language) & JSTL
+- EL(Expression Language)를 이용하면 `<%= %>` 등의 JSP 표현식을 사용하는 것보다 간단히
+값을 가져올 수 있다.
+- JSTL 사용하면 `<% %>` 같이 스크립트릿 태그를 사용해서 자바 코드를 작성하지 않아도 됩니다.
+
 
 
 ### 2. Jsp 컨테이너 란?
