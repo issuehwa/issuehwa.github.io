@@ -1,6 +1,8 @@
 # YoungHwa.LEE Blog 🎈
 Github Pages로 만든 Blog 입니다.
 
+[![HitCount](http://hits.dwyl.com/issuehwa/issuehwa/issuehwagithubio/issuehwagithubio.svg)](http://hits.dwyl.com/issuehwa/issuehwa/issuehwagithubio/issuehwagithubio)
+
 ##개발환경
 
 - Jekyll
