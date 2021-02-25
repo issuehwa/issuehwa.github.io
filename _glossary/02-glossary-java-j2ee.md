@@ -34,7 +34,7 @@ toc_label: "Java EE"
 
 - [Servlet][Servlet]
 
-- JSP (Java Server Pages)
+- [JSP (Java Server Pages)][JSP]
 
 - JDBC (Java DataBase Connector)
 
@@ -69,3 +69,4 @@ toc_label: "Java EE"
 [glossary-java-ejb]: /glossary/java/ejb/ "Java EJB"
 [Servlet]: /glossary/java/servlet/ "Servlet&서블릿 컨테이너"
 [JavaEE]: /glossary/java/j2ee/ "J2EE&JavaEE"
+[JSP]: /glossary/java/jsp/ "JSP"
