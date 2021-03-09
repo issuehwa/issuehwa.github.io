@@ -48,3 +48,7 @@ glossary:
     url: /glossary/java/servlet/
   - title: "JSP (Java Server Pages)"
     url: /glossary/java/jsp/
+- title: "ETC"
+  children:
+  - title: "컴파일 & 빌드"
+    url: /glossary/etc/compile/
