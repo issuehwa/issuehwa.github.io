@@ -50,5 +50,5 @@ glossary:
     url: /glossary/java/jsp/
 - title: "ETC"
   children:
-  - title: "컴파일 & 빌드"
+  - title: "컴파일 & 빌드 & 배포"
     url: /glossary/etc/compile/
