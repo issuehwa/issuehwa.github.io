@@ -15,7 +15,7 @@ Github Pages로 만든 Blog 입니다.
 ### 로컬 실행 시  
 1. Gemfile 수정
 2. bundler로 Gemfile에 정의된 gem들의 의존성 문제 해결
-3. 로컬 실행 : 터미널 > bundle exec jekyll serve
+3. 로컬 실행 : 터미널 > start http://localhost:4000 & bundle exec jekyll serve
 4. 기본 포트 4000번 [http://localhost:4000/](http://localhost:4000/)
 
 ### 이동 URL
