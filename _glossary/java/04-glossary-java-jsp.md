@@ -24,7 +24,7 @@ toc_label: "JSP"
 - Java Beans 컴포넌트를 사용할 수 있다.
 - `<% ~ %>`(* 스크립트릿-Scriptlet)로 JSP 영역을 표기하며 Web에서 소스로 보여지지 않는다.
 
-#### Scriptlet 
+#### Scriptlet
 ```jsp
 <%
     String str = "hello;    // java code
@@ -38,7 +38,7 @@ toc_label: "JSP"
 
 ```jsp
 // page 지시자
-<%@ page language="java" contentType="text/html; charset=UTF-8" 
+<%@ page language="java" contentType="text/html; charset=UTF-8"
 pageEncoding="UTF-8"%>
 <%@page import="java.util.ArrayList" %>
 
@@ -62,16 +62,16 @@ pageEncoding="UTF-8"%>
  private String str = "good";
  public int getNumber() {
     return this.num;
- } 
+ }
  public String getString() {
      return this.str;
- } 
+ }
 %>
 ```
 
 - <%! private int num = 1; %> !를 붙여준다.
 - HTML 태그 위에 자바코드를 선언할 수 있다.
-- 선언된 변수, 함수는 Jsp페이지 어느 곳에서도 참조 가능하다. 
+- 선언된 변수, 함수는 Jsp페이지 어느 곳에서도 참조 가능하다.
 - 선언문 <%! ~ %> 태그는 중복으로 사용 가능하다.
 
 #### 표현식

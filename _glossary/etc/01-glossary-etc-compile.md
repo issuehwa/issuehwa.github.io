@@ -2,7 +2,7 @@
 title: "Compile & Build & Deploy"
 permalink: /glossary/etc/compile/
 excerpt: "컴파일, 빌드, 배포"
-last_modified_at: 2021-03-09
+last_modified_at: 2021-03-29
 toc: ture
 toc_label: "컴파일 & 빌드 & 배포"
 ---
