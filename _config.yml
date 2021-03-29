@@ -312,7 +312,7 @@ defaults:
         nav: "jiujitsu"
   # 용어사전
   - scope:
-      path: "_glossary"
+      path: "_glossary/**"
       type: glossary
     values:
       layout: single

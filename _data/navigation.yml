@@ -48,6 +48,14 @@ glossary:
     url: /glossary/java/servlet/
   - title: "JSP (Java Server Pages)"
     url: /glossary/java/jsp/
+- title: "기술 & 서비스"
+  children:
+  - title: "STT (Speech-to-Text)"
+    url:
+  - title: "TTS (Text-to-Speech)"
+    url:
+  - title: "OCR (Optical character recognition)"
+    url:
 - title: "ETC"
   children:
   - title: "컴파일 & 빌드 & 배포"
