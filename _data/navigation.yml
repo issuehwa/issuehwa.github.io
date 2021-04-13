@@ -51,11 +51,11 @@ glossary:
 - title: "기술 & 서비스"
   children:
   - title: "STT (Speech-to-Text)"
-    url:
+    url: /glossary/tech/stt/
   - title: "TTS (Text-to-Speech)"
-    url:
+    url: /glossary/tech/tts/
   - title: "OCR (Optical character recognition)"
-    url:
+    url: /glossary/tech/ocr/
 - title: "ETC"
   children:
   - title: "컴파일 & 빌드 & 배포"
